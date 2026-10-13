@@ -63,6 +63,17 @@
     </div>
 
 
+<script>
+  window.addEventListener('load', function () {
+    function scrollToBottom() {
+      window.scrollTo(0, document.documentElement.scrollHeight);
+    }
+
+    scrollToBottom();
+    setTimeout(scrollToBottom, 300);
+  });
+</script>
+
     <script type="text/javascript">
 
       jQuery(document).ready(function(){
